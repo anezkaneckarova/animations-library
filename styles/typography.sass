@@ -1,0 +1,32 @@
+.title
+  font-family: sans-serif
+  color: black
+  font-weight: 300
+  margin: .4em 0
+
+.title--big
+  font-size: 24px
+
+.title--medium
+  font-size: 20px
+
+.title--small
+  font-size: 14px
+
+.title--decoration
+  border-left: 3px solid black
+  padding-left: 10px
+
+.title--square
+  padding-left: 14px
+  position: relative
+  &::before
+    content: ""
+    display: block
+    width: 5px
+    height: 5px
+    background: black
+    position: absolute
+    transform: translateY(-50%)
+    top: 50%
+    left: 0
